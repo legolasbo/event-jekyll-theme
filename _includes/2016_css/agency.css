@@ -916,3 +916,77 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+#venue {
+    padding-bottom:0;
+}
+
+#ceremoniemeester .image {
+    height: 60vh;
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/css/2018_style/img/ceremoniemeester.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#ceremoniemeester .image .heading {
+    color: white;
+    position: absolute;
+    bottom:0;
+}
+
+.timeline {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.timeline ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding:10px 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.timeline ul li {
+    display: inline-block;
+    width: 100%;
+    margin-bottom:7px;
+    padding-top:7px;
+    border-top:1px solid #cccccc;
+    color: white;
+}
+
+.timeline ul li:first-child {
+    border: none;
+}
+
+.hour {
+    float: left;
+    font-size: 2em;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 20%;
+}
+.hour #sub {
+    font-size: 0.5em;
+}
+.work {
+    float: right;
+    width: 70%;
+}
+
+#agenda {
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/css/2018_style/img/Dishoek-10.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:0;
+}
