@@ -1024,3 +1024,13 @@ body {
     position: relative;
     height: 100vh;
 }
+
+#kom-jij-ook {
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/css/2018_style/img/handen-ringen.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
