@@ -927,6 +927,14 @@ body {
     height: 180vh;
 }
 
+#venue .text-box {
+    margin-bottom:75px;
+}
+
+#venue .section-subheading {
+    margin-bottom: 0;
+}
+
 #ceremoniemeester {
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/css/2018_style/img/ceremoniemeester-flipped.jpg');
@@ -995,4 +1003,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
+}
+
+#dress-code {
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/css/2018_style/img/dresscode.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+#cadeautip {
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/css/2018_style/img/thailand_1.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
 }
