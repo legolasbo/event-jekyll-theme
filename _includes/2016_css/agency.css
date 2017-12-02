@@ -705,14 +705,12 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/map-image.png');
-    background-position: center;
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/css/2018_style/img/ceremoniemeester-flipped.jpg');
+    background-position: top center;
     background-repeat: no-repeat;
-}
-
-section#contact .section-heading {
-    color: #fff;
+    background-size: cover;
+    position: relative;
 }
 
 section#contact .form-group {
@@ -942,11 +940,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 100vh;
-}
-
-#ceremoniemeester .section-subheading {
-    color: white;
+    min-height: 100vh;
 }
 
 .text-box {
