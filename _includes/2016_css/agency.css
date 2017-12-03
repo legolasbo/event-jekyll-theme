@@ -922,7 +922,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 180vh;
+    min-height: 100vh;
 }
 
 #venue .text-box {
@@ -1006,7 +1006,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #cadeautip {
@@ -1016,7 +1016,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #kom-jij-ook {
@@ -1026,5 +1026,5 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
 }
